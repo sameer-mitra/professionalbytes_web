@@ -1,4 +1,4 @@
-/* ========================================== 
+/* ==========================================
 scrollTop() >= 300
 Should be equal the the height of the header
 ========================================== */
@@ -14,3 +14,8 @@ $(window).scroll(function(){
     }
 });
 
+$('.box').click(function() {
+  alert('clicked');
+  window.location = $(this).data('location');
+  return false;
+});
