@@ -180,6 +180,7 @@ a.button {
   border: 1px solid #000000;
   font-weight: normal;
   text-decoration: none;
+  height: 200px;
 }
 
 #boxes .box:hover{
@@ -266,4 +267,16 @@ footer{
     width:100%;
     margin-bottom:5px;
   }
+
+#boxes .box{
+  margin: 10px;
+  float:left;
+  text-align: center;
+  width:100%;
+  padding:10px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  font-weight: normal;
+  text-decoration: none;
+}
 }
